@@ -186,6 +186,14 @@ $gradient-radial: radial-gradient(#273138ff, #e78d97ff, #e5a7aeff, #d7808aff, #7
         margin-bottom: 4rem;
     }
 
+@media (max-width: 768px) {
+    .page-section h2.section-heading, .page-section .section-heading.h2 {
+        font-size: 1.9rem;
+    }
+
+
+}
+
 /* services */
 .service h4 {
     font-weight: 600;
@@ -539,6 +547,7 @@ header.masthead {
                 font-size: 10px;
                 line-height: 14px;
                 margin-top: 12px;
+                font-weight: 700;
             }
 
         .timeline > li.timeline-inverted > .timeline-panel {
