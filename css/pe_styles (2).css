@@ -113,7 +113,7 @@ $gradient-radial: radial-gradient(#273138ff, #e78d97ff, #e5a7aeff, #d7808aff, #7
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-    --bs-body-font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --bs-body-font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     --bs-body-font-size: 1rem;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
@@ -168,16 +168,10 @@ $gradient-radial: radial-gradient(#273138ff, #e78d97ff, #e5a7aeff, #d7808aff, #7
     --bs-btn-disabled-border-color: #6c757d;
 }
 
-.font-speciale {
-    font-family: "Hurricane", cursive;
-    font-size: 3.5rem;
-}
-
 
 .page-section {
     padding: 6rem 0;
 }
-
     .page-section h2.section-heading, .page-section .section-heading.h2 {
         font-size: 2.5rem;
         margin-top: 0;
@@ -188,7 +182,7 @@ $gradient-radial: radial-gradient(#273138ff, #e78d97ff, #e5a7aeff, #d7808aff, #7
     .page-section h3.section-subheading, .page-section .section-subheading.h3 {
         font-size: 1rem;
         font-weight: 400;
-        font-family: "Roboto", sans-serif;
+        font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         margin-bottom: 4rem;
     }
 
@@ -199,10 +193,7 @@ $gradient-radial: radial-gradient(#273138ff, #e78d97ff, #e5a7aeff, #d7808aff, #7
 
 
 }
-/*bloc infos-1*/
 
-section.bloc-infos-1 {
-}
 /* services */
 .service h4 {
     font-weight: 600;
@@ -259,7 +250,7 @@ section.bloc-infos-1 {
     }
 
     #mainNav .navbar-brand {
-        color: #932a48;
+        color: #d7808a;
         font-family: "Urbanist", sans-serif;
         font-size: 1.2em;
         font-weight: 300;
@@ -268,7 +259,7 @@ section.bloc-infos-1 {
     }
 
         #mainNav .navbar-brand span {
-            color: #932a48;
+            color: #d7808aff;
             font-family: "Hurricane", cursive;
             font-weight: 400;
             font-size: 1.9em;
@@ -336,7 +327,7 @@ section.bloc-infos-1 {
 
 /* header */
 header.masthead {
-    padding-top: 9rem;
+    padding-top: 10.5rem;
     padding-bottom: 6rem;
     text-align: right;
     color: #fff;
@@ -348,70 +339,42 @@ header.masthead {
 }
 
     header.masthead .masthead-subheading {
-        font-size: 1rem;
+        font-size: 1.5rem;
         line-height: 1.5rem;
-        font-family: "Urbanist", sans-serif;
+        margin-bottom: 25px;
+        font-family: "Hurricane", cursive;
         font-weight: 400;
     }
-        header.masthead .masthead-subheading img {
-            width: 100%;
-            height: auto;
-        }
 
     header.masthead .masthead-heading {
         font-size: 3.25rem;
         line-height: 3.25rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         font-family: "Urbanist", sans-serif;
         font-weight: 400;
     }
-        header.masthead .masthead-heading span {
-            font-size: 1rem;
-            color: #3f3f3f;
-            font-weight:700;
-        }
 
 @media (min-width: 768px) {
     header.masthead {
-        padding-top: 10rem;
+        padding-top: 17rem;
         padding-bottom: 12.5rem;
     }
 
         header.masthead .masthead-subheading {
-            font-size: 1rem;
+            font-size: 4rem;
             line-height: 2.25rem;
-            margin-bottom: 0rem;
-            padding-top:2rem;
-            display:block;
-            width:25%;
-            height:auto;
-        }
-        header.masthead .masthead-subheading img {
-            width:100%;
-            height:auto;
+            margin-bottom: 2rem;
         }
 
         header.masthead .masthead-heading {
-            font-size: 5rem;
+            font-size: 4.5rem;
             font-weight: 400;
             line-height: 4.75rem;
-            margin-bottom: 0rem;
-            letter-spacing:0.05rem;
+            margin-bottom: 4rem;
         }
-            header.masthead .masthead-heading span {
-                font-size: 1rem;
-                color: #ffffff;
-                font-weight: 700;
-            }
 }
 
 /* portfolio */
-section#portfolio {
-    padding: 10rem 0 !important;
-    background-image: url("../assets/img/top-gradient_2.png");
-    background-repeat: repeat-x;
-    background-position: top left;
-}
 #portfolio .portfolio-item {
     max-width: 26rem;
     margin-left: auto;
@@ -460,7 +423,7 @@ section#portfolio {
 
         #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
             /*font-style: italic;*/
-            font-family: "Roboto", sans-serif;
+            font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         }
 
 .portfolio-modal .modal-dialog {
@@ -482,7 +445,7 @@ section#portfolio {
     .portfolio-modal .modal-content p.item-intro {
         /*font-style: italic;*/
         margin-bottom: 2rem;
-        font-family: "Roboto", sans-serif;
+        font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     }
 
     .portfolio-modal .modal-content p {
@@ -511,14 +474,7 @@ section#portfolio {
         opacity: 0.3;
     }
 
-/* à propos */
-section#about.page-section.a-propos {
-    padding: 10rem 0 !important;
-    background-image: url("../assets/img/top-gradient_02.png");
-    background-repeat: repeat-x;
-    background-position: top left;
-}
-
+/* timeline */
 .timeline {
     position: relative;
     padding: 0;
@@ -746,14 +702,14 @@ section#about.page-section.a-propos {
 /* contact */
 
 section#contact {
-    padding: 10rem 0 !important;
-    background-image: url("../assets/img/top-gradient_02.png");
-    background-repeat: repeat-x;
-    background-position: top left;
+    background-color: #273138;
+    /*background-image: url("../assets/img/map-image.png");*/
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
     section#contact .section-heading {
-        color: #3f3f3f;
+        color: #fff;
     }
 
     section#contact form#contactForm .form-group {
