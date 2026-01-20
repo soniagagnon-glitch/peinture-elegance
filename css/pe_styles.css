@@ -200,9 +200,18 @@ $gradient-radial: radial-gradient(#273138ff, #e78d97ff, #e5a7aeff, #d7808aff, #7
 
 
 }
+a {
+    color: #e78d97ff;
+    font-weight: 600;
+    text-decoration: none;
+}
+    a:hover {
+        color: #d7808aff;
+    }
 /*bloc infos-1*/
 
-section.bloc-infos-1 {
+section.bloc-infos-1 p span {
+    font-size:0.8rem;
 }
 /* services */
 .service h4 {
@@ -334,6 +343,7 @@ section.bloc-infos-1 {
 /*Socials top*/
 .socials-top {
     position:fixed;
+    z-index:100;
     top:90px;
     left:0px;
     padding:3px 15px;
