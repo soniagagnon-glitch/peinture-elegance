@@ -267,6 +267,7 @@ section.bloc-infos-1 p span {
         font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         text-transform: uppercase;
         font-weight: 700;
+        margin-right:40px;
     }
 
     #mainNav .navbar-brand {
@@ -395,6 +396,7 @@ section.bloc-infos-1 p span {
             margin-bottom: 1rem;
             font-family: "Urbanist", sans-serif;
             font-weight: 400;
+            text-shadow: 1px 1px 5px #932a48;
         }
 
             header.masthead .masthead-heading span {
