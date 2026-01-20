@@ -247,7 +247,7 @@ section.bloc-infos-1 {
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #94999c;
 }
 
     #mainNav .navbar-toggler {
@@ -288,7 +288,7 @@ section.bloc-infos-1 {
     }
 
         #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-            color: #d7808a;
+            color: #932a48;
         }
 
 @media (min-width: 992px) {
@@ -313,7 +313,7 @@ section.bloc-infos-1 {
         #mainNav.navbar-shrink {
             padding-top: 1rem;
             padding-bottom: 1rem;
-            background-color: #212529;
+            background-color: #94999c;
         }
 
             #mainNav.navbar-shrink .navbar-brand {
